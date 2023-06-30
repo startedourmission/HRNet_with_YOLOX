@@ -18,12 +18,9 @@ def cv_joints(image, outputs):
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-#DATA_PATH = '/home/titan/Jinwoo/DatasetTools/dataset/TurbulentFlow_Capture/'
-
-# VIDEO_PATH = '/home/titan/Jinwoo/DatasetTools/dataset/NYPD_Video/'
-DATA_PATH = '/home/titan/Jinwoo/DatasetTools/dataset/NYPD_Capture/'
-DATA_FOLDER = 'Cap_3_1740_11_NYPD_Crowd_Behavior_Training_Video/'
-IMG_NAME = 'frame0.jpg'
+DATA_PATH = ''
+DATA_FOLDER ''
+IMG_NAME = ''
 
 img = DATA_PATH + DATA_FOLDER + IMG_NAME
 
