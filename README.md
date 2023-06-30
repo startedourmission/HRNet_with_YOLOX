@@ -8,8 +8,9 @@ offical Code : https://github.com/leoxiaobin/deep-high-resolution-net.pytorch
 
 simple-HRNet : https://github.com/stefanopini/simple-HRNet
 
-YOLOX를 사용하여 기존보다 높은 성능을 보여줍니다. 
-기존의 YOLOv3, YOLOv5도 여전히 사용 가능합니다.
+YOLOX를 사용하여 기존보다 높은 성능을 보여줍니다. 물론, 기존의 YOLOv3, YOLOv5도 여전히 사용 가능합니다.
+
+
 ![HRNet_Yolov5](https://github.com/startedourmission/ImprovedSimpleHRNet_KeyPointDetector/assets/53049011/45a9c7a0-b611-4a6d-a4e4-abf9bf8ed9d5)
 ![HRNet_Yolox](https://github.com/startedourmission/ImprovedSimpleHRNet_KeyPointDetector/assets/53049011/d814f2e6-3d5d-49fe-8658-10d7272f558e)
 
