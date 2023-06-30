@@ -10,15 +10,18 @@ simple-HRNet : https://github.com/stefanopini/simple-HRNet
 
 YOLOX를 사용하여 기존보다 높은 성능을 보여줍니다. 
 기존의 YOLOv3, YOLOv5도 여전히 사용 가능합니다.
+![HRNet_Yolov5](https://github.com/startedourmission/ImprovedSimpleHRNet_KeyPointDetector/assets/53049011/45a9c7a0-b611-4a6d-a4e4-abf9bf8ed9d5)
+![HRNet_Yolox](https://github.com/startedourmission/ImprovedSimpleHRNet_KeyPointDetector/assets/53049011/d814f2e6-3d5d-49fe-8658-10d7272f558e)
+
 
 * * * 
 
-#YOLOX 사용
+# YOLOX 사용
 
 demo.py를 다음과 같이 수정합니다.
 
 
 ```
-27 #model = SimpleHRNet(48, 17, "./weights/pose_hrnet_w48_384x288.pth", yolo_version='v5', yolo_model_def='yolov5m', device=device)
-28 model = SimpleHRNet(32, 17, "./weights/pose_hrnet_w32_256x192.pth", yolo_version='x', device=device)
+#model = SimpleHRNet(48, 17, "./weights/pose_hrnet_w48_384x288.pth", yolo_version='v5', yolo_model_def='yolov5m', device=device)
+model = SimpleHRNet(32, 17, "./weights/pose_hrnet_w32_256x192.pth", yolo_version='x', device=device)
 ```
