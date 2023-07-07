@@ -19,7 +19,11 @@ YOLOX를 사용하여 기존보다 높은 성능을 보여줍니다. 물론, 기
 
 # YOLOX 사용
 
-demo.py를 다음과 같이 수정합니다.
+먼저, 다른 YOLO를 사용할 때와 마찬가지로, models_/detector/ 아래 YOLO를 설치합니다.
+https://github.com/Megvii-BaseDetection/YOLOX
+
+
+그 다음, demo.py를 다음과 같이 수정합니다.
 
 
 ```
