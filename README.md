@@ -20,6 +20,8 @@ YOLOX를 사용하여 기존보다 높은 성능을 보여줍니다. 물론, 기
 # YOLOX 사용
 
 먼저, 다른 YOLO를 사용할 때와 마찬가지로, models_/detector/ 아래 YOLO를 설치합니다.
+
+
 https://github.com/Megvii-BaseDetection/YOLOX
 
 
