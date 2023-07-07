@@ -24,5 +24,6 @@ demo.py를 다음과 같이 수정합니다.
 
 ```
 #model = SimpleHRNet(48, 17, "./weights/pose_hrnet_w48_384x288.pth", yolo_version='v5', yolo_model_def='yolov5m', device=device)
-model = SimpleHRNet(32, 17, "./weights/pose_hrnet_w32_256x192.pth", yolo_version='x', device=device)
+model = SimpleHRNet(48, 17, "./weights/pose_hrnet_w48_384x288.pth", yolo_version='x', device=device)
 ```
+크기, pth 파일, device와 관계없이 yolo_version을 'x'로 하기만 하면 됩니다. X버전에서 yolo_model_def는 필요없습니다.
