@@ -1,4 +1,4 @@
-# ImprovedSimpleHRNet_KeyPointDetector
+# HRNet + YOLOX
 
 이 프로젝트는 [Multi-person Human Pose Estimation with HRNet in PyTorch 의 ](https://arxiv.org/abs/1902.09212)https://arxiv.org/abs/1902.09212 비공식 구현이며, 완전히 같은 결과를 제공합니다.
 
